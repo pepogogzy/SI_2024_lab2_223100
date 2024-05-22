@@ -17,7 +17,7 @@ public class SILab2Test {
         assertTrue(SILab2.checkCart(new ArrayList<>(), 100));
 
         List<Item> items3 = new ArrayList<>();
-		
+
         items3.add(new Item(null, "12345", 100, 0));
         assertTrue(SILab2.checkCart(items3, 100));
 
@@ -63,4 +63,5 @@ public class SILab2Test {
         items10.add(new Item("Leb", "89898", 200, 0));
         assertFalse(SILab2.checkCart(items10, 300));
     }
+
 }
